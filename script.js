@@ -157,7 +157,20 @@ async function loadNotes() {
 
 /**
  * Fetch portfolio items from a specific category
- * In a real implementation, this would fetch from a JSON manifest file
+ * 
+ * TODO: This is a stub implementation. In a real implementation, this would:
+ * - Fetch from a manifest.json file in each category directory (e.g., projects/manifest.json)
+ * - Parse the JSON and return an array of item objects
+ * - Each object should have properties: title, description, date, link, and category-specific fields
+ * 
+ * Expected return format:
+ * [
+ *   { title: "Project Name", description: "...", date: "2024-12-30", link: "projects/project-name/", tags: [...] },
+ *   ...
+ * ]
+ * 
+ * @param {string} category - The category to fetch items from (projects, labs, experiments, notes)
+ * @returns {Promise<Array>} Array of portfolio items (currently returns empty array)
  */
 async function fetchPortfolioItems(category) {
     // Placeholder for future implementation

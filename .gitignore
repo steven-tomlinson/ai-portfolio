@@ -3,6 +3,22 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Additional exclusions for AI Portfolio
+# Temporary files and directories
+tmp/
+temp/
+*.tmp
+
+# Sensitive data
+*.key
+*.secret
+.env.local
+.env.*.local
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
 # User-specific files
 *.rsuser
 *.suo

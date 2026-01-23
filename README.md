@@ -59,69 +59,6 @@ I am currently working on the Azure AI Agent Foundry Certification, which covers
 
 See [courses/azure-ai-agent-foundry](courses/azure-ai-agent-foundry/) for course materials.
 
-## Viewing the Portfolio
-
-### Local Development
-
-To view the portfolio website locally:
-
-1. Clone this repository
-2. Open `index.html` in a web browser
-3. Or use a local development server:
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js (if available)
-   npx http-server
-   ```
-4. Navigate to `http://localhost:8000` in your browser
-
-### GitHub Pages
-
-The portfolio can be deployed to GitHub Pages for online viewing.
-
-## Adding Content
-
-### Projects
-
-1. Create a new directory in `projects/` for your project
-2. Use `PROJECT_TEMPLATE.md` as a starting point
-3. Include source code, documentation, and results
-
-### Labs
-
-1. Create a new directory in `labs/` for your lab
-2. Use `LAB_TEMPLATE.md` as a starting point
-3. Document procedures, results, and learnings
-
-### Experiments
-
-1. Create a new directory in `experiments/` for your experiment
-2. Use `EXPERIMENT_TEMPLATE.md` as a starting point
-3. Document hypothesis, methodology, and findings
-
-### Notes
-
-1. Create a new markdown file in `notes/`
-2. Use `NOTES_TEMPLATE.md` as a starting point
-3. Organize by topic or date
-
-## Course Format
-
-For certification courses:
-- Each course has its own directory under `courses/`
-- Course structure includes: modules, labs, projects, notes, and resources
-- Progress is tracked via README files and course-specific HTML pages
-- Use provided templates for consistency
-
-## Best Practices
-
-- **Security**: Never commit API keys, credentials, or sensitive data
-- **Documentation**: Document all projects, labs, and experiments thoroughly
-- **Code Quality**: Write clean, well-commented code
-- **Version Control**: Commit regularly with meaningful messages
-- **Organization**: Use the provided templates for consistency
 
 ## Technologies in Use
 
